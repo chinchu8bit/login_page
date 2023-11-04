@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+
+* html,body{
+ 
+    display:grid;
+    height:100%;
+    place-items: center;
+    /* background:#0c8e97;  */
+    margin-top: 200px;  
+    background-image: url("mm.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.log{
+    width:380px;
+    background:white;
+    border-radius:5px;
+} 
+.log .title{
+    line-height:80px;
+    background:#03848d;
+    padding-left:20px;
+    border-radius: 5px 5px 0 0;
+    color:#fff;
+    font-size:25px;
+    font: weight 600px;
+
+}
+
+.log form{
+padding: 30px 20px 25px 20px;
+
+}
+
+.log form .row{
+
+    height:45px;
+  
+    margin-bottom :15px;
+    position: relative;
+    
+    
+}
+.log  .row input{
+height:100%;
+width:100%;
+outline:none;
+padding-left: 60px;
+border-radius: 5px;
+border:1px solid lightgrey;
+font-size:15px;
+
+
+
+
+
+}
+
+.log  .row i{
+  position:absolute;
+  width:47px;
+  height:100%;
+  color:white;
+  background:#03848d;
+  border:1px solid #03848d;
+   border-radius:5px 0 0 5 px; ;
+display:flex;
+align-items: center;
+justify-content:center;
+}
+
+.log  .f1{
+margin:-8px 0 20px 0;}
+
+.log  .f1  a{ 
+    color:#03848d;
+    font-size:15px;
+    
+    }
+.log .b1 input{
+padding-left: 0%;
+background:#03848d;
+border:1px solid #03848d;
+color:white;
+
+    
+}
+
+.log form .f3{
+    margin-left:200px;
+    margin-top:-10px;
+}
+.log form .f2{
+    
+    margin-top:-9px;
+}
+
